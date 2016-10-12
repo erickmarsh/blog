@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eric Marsh Personal Blog</title>
+    <link>http://ericmarsh.com/</link>
+    <description>Recent content on Eric Marsh Personal Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>All rights reserved - 2016</copyright>
+    <lastBuildDate>Wed, 12 Oct 2016 11:05:57 -0500</lastBuildDate>
+    <atom:link href="http://ericmarsh.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Bash on Windows git and Hugo</title>
+      <link>http://ericmarsh.com/post/post-title/</link>
+      <pubDate>Wed, 12 Oct 2016 11:05:57 -0500</pubDate>
+      
+      <guid>http://ericmarsh.com/post/post-title/</guid>
+      <description>
+
+&lt;h2 id=&#34;getting-setup&#34;&gt;Getting setup&lt;/h2&gt;
+
+&lt;p&gt;If you are running windows 10 and are not using Bash on windows, you are missing out on a killer command-line experience. After suffering for years with Powershell with some band-aids to let me &lt;code&gt;ls&lt;/code&gt; and &lt;code&gt;wget&lt;/code&gt;, a full-on Ubuntu Linux subsystem has been added to Windows 10.&lt;/p&gt;
+
+&lt;p&gt;There are a lot of tutorials out there explaining step-by-step on how to get Bash installed, but this is the one I used.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;add link here&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;setting-up-the-development-folder&#34;&gt;Setting up the development folder&lt;/h2&gt;
+
+&lt;h2 id=&#34;installing-git-and-adding-ssh-key-to-github&#34;&gt;Installing git and adding ssh key to Github&lt;/h2&gt;
+
+&lt;h2 id=&#34;git-discovery-across-filesystem-not-set&#34;&gt;GIT_DISCOVERY_ACROSS_FILESYSTEM not set&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://stackoverflow.com/questions/16853624/git-discovery-across-filesystem-not-set&#34;&gt;GIT_DISCOVERY_ACROSS_FILESYSTEM not set&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Don&#39;t use Document.Write() for Script Tags</title>
+      <link>http://ericmarsh.com/post/dont-use-doc-write-for-script-tags/</link>
+      <pubDate>Thu, 29 Sep 2016 13:29:20 -0500</pubDate>
+      
+      <guid>http://ericmarsh.com/post/dont-use-doc-write-for-script-tags/</guid>
+      <description>
+
+&lt;p&gt;I saw &lt;a href=&#34;http://blog.dareboost.com/en/2016/09/avoid-using-document-write-scripts-injection/&#34;&gt;this article&lt;/a&gt; linked on &lt;a href=&#34;https://news.ycombinator.com/item?id=12604544&#34;&gt;Hacker News&lt;/a&gt; about reasons not to use document.write() to insert script tags. The primary one being that Chrome is &lt;a href=&#34;https://developers.google.com/web/updates/2016/08/removing-document-write&#34;&gt;not going to support it.&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;what-should-you-do&#34;&gt;What should you do?&lt;/h3&gt;
+
+&lt;p&gt;Ok, great. Now you know about it, what are you going to do?&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;The code change is pretty straight forward. As a user points out in the &lt;a href=&#34;https://news.ycombinator.com/item?id=12604742&#34;&gt;comments&lt;/a&gt;, you can just use DOM manipulation rather than using write.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;var _script = document.createElement(&#39;script&#39;);
+_script.src = &#39;//blablabla.bla/bla.js&#39;;
+
+_script.async = &#39;&#39;
+(document.body || document.getElementsByTagName(&#39;body&#39;)[0])
+      .appendChild(_script);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Search your header, and your footer partials for any &lt;code&gt;document.write&lt;/code&gt; commands.&lt;/li&gt;
+&lt;li&gt;If you are using Google Tag Manager you will want to go through any custom Javascript tags to see if there are any &lt;code&gt;document.write()&lt;/code&gt; commands.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;should-you-add-async&#34;&gt;Should you add async?&lt;/h3&gt;
+
+&lt;p&gt;Yes, definitely. According to &lt;a href=&#34;http://caniuse.com/#feat=script-async&#34;&gt;caniuse.com&lt;/a&gt;, roughly 92% of browsers support the attribute. There is really no reason not to.&lt;/p&gt;
+
+&lt;h3 id=&#34;sounds-great-but-what-does-async-do&#34;&gt;Sounds great, but what does async do?&lt;/h3&gt;
+
+&lt;p&gt;You can think of he async attribute telling the JavaScript file to load in background and not block rendering of the rest of the file (if possible). This will allow the file to run only when it has been downloaded and will make the page appear to load faster.&lt;/p&gt;
+
+&lt;p&gt;If you want a bit more detailed read about async, take a look at &lt;a href=&#34;https://css-tricks.com/thinking-async/&#34;&gt;css-tricks.com article on the subject.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Typora</title>
+      <link>http://ericmarsh.com/post/typora/</link>
+      <pubDate>Tue, 27 Sep 2016 15:53:30 -0500</pubDate>
+      
+      <guid>http://ericmarsh.com/post/typora/</guid>
+      <description>
+
+&lt;p&gt;If you are like me, and write everything in Markdown, I found a great cross-platform Markdown editor &lt;a href=&#34;http://typora.io&#34;&gt;Typora&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;what-i-like-about-typora&#34;&gt;What I like about Typora&lt;/h3&gt;
+
+&lt;h4 id=&#34;lets-you-write-markdown-and-see-the-styling-in-1-window&#34;&gt;Lets you write markdown and see the styling in 1 window.&lt;/h4&gt;
+
+&lt;p&gt;A lot of other Markdown editors have a &amp;ldquo;writing&amp;rdquo; and &amp;ldquo;display&amp;rdquo; pane side by side. I find this setup less than ideal. However, Typora lets you write Markdown in the same window, and text is automatically formatted for you. The workflow is much better and more similar to writing a Word document, but without having to keep changing the auto-formatting.&lt;/p&gt;
+
+&lt;h4 id=&#34;custom-themes&#34;&gt;Custom Themes&lt;/h4&gt;
+
+&lt;p&gt;Typora has a couple of pretty standard built in themes. I was able to tweak the default &amp;ldquo;Github&amp;rdquo; theme to &lt;a href=&#34;http://support.typora.io/Add-Custom-CSS/&#34;&gt;add colors to the different headings&lt;/a&gt; in just a few minutes.&lt;/p&gt;
+
+&lt;h4 id=&#34;clean-interface&#34;&gt;Clean Interface&lt;/h4&gt;
+
+&lt;p&gt;The writting interface is very minimal and does not distract by adding too many buttons and unnesseary anything.&lt;/p&gt;
+
+&lt;h4 id=&#34;easy-switch-to-code-mode&#34;&gt;Easy switch to code mode&lt;/h4&gt;
+
+&lt;p&gt;If you need to &amp;lsquo;do some more complex formatting, it is easy to switch into &amp;ldquo;code mode&amp;rdquo; by clicking the &lt;code&gt;&amp;lt;/&amp;gt;&lt;/code&gt; button or &lt;code&gt;ctrl-/&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;things-that-need-work&#34;&gt;Things that need work&lt;/h3&gt;
+
+&lt;p&gt;Keep in mind, Typora is still in Beta, so bugs are expected&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Page jumps sometimes when scrolling&lt;/li&gt;
+&lt;li&gt;Losing your place when flipping back and forth in code mode&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;These are both kind of annoying, but not deal breakers by any stretch.&lt;/p&gt;
+
+&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
+
+&lt;p&gt;Definitely check out &lt;a href=&#34;http://typora.io&#34;&gt;Typora&lt;/a&gt; if you write any amount of Markdown. It is free while in Beta so there is no reason not to.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>welcome</title>
+      <link>http://ericmarsh.com/post/welcome/</link>
+      <pubDate>Sat, 17 Sep 2016 10:18:24 -0500</pubDate>
+      
+      <guid>http://ericmarsh.com/post/welcome/</guid>
+      <description>&lt;p&gt;Hello this is a new blog post&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

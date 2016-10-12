@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markdown on Eric Marsh Personal Blog</title>
+    <link>http://ericmarsh.com/tags/markdown/</link>
+    <description>Recent content in Markdown on Eric Marsh Personal Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>All rights reserved - 2016</copyright>
+    <lastBuildDate>Tue, 27 Sep 2016 15:53:30 -0500</lastBuildDate>
+    <atom:link href="http://ericmarsh.com/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Typora</title>
+      <link>http://ericmarsh.com/post/typora/</link>
+      <pubDate>Tue, 27 Sep 2016 15:53:30 -0500</pubDate>
+      
+      <guid>http://ericmarsh.com/post/typora/</guid>
+      <description>
+
+&lt;p&gt;If you are like me, and write everything in Markdown, I found a great cross-platform Markdown editor &lt;a href=&#34;http://typora.io&#34;&gt;Typora&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;what-i-like-about-typora&#34;&gt;What I like about Typora&lt;/h3&gt;
+
+&lt;h4 id=&#34;lets-you-write-markdown-and-see-the-styling-in-1-window&#34;&gt;Lets you write markdown and see the styling in 1 window.&lt;/h4&gt;
+
+&lt;p&gt;A lot of other Markdown editors have a &amp;ldquo;writing&amp;rdquo; and &amp;ldquo;display&amp;rdquo; pane side by side. I find this setup less than ideal. However, Typora lets you write Markdown in the same window, and text is automatically formatted for you. The workflow is much better and more similar to writing a Word document, but without having to keep changing the auto-formatting.&lt;/p&gt;
+
+&lt;h4 id=&#34;custom-themes&#34;&gt;Custom Themes&lt;/h4&gt;
+
+&lt;p&gt;Typora has a couple of pretty standard built in themes. I was able to tweak the default &amp;ldquo;Github&amp;rdquo; theme to &lt;a href=&#34;http://support.typora.io/Add-Custom-CSS/&#34;&gt;add colors to the different headings&lt;/a&gt; in just a few minutes.&lt;/p&gt;
+
+&lt;h4 id=&#34;clean-interface&#34;&gt;Clean Interface&lt;/h4&gt;
+
+&lt;p&gt;The writting interface is very minimal and does not distract by adding too many buttons and unnesseary anything.&lt;/p&gt;
+
+&lt;h4 id=&#34;easy-switch-to-code-mode&#34;&gt;Easy switch to code mode&lt;/h4&gt;
+
+&lt;p&gt;If you need to &amp;lsquo;do some more complex formatting, it is easy to switch into &amp;ldquo;code mode&amp;rdquo; by clicking the &lt;code&gt;&amp;lt;/&amp;gt;&lt;/code&gt; button or &lt;code&gt;ctrl-/&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;things-that-need-work&#34;&gt;Things that need work&lt;/h3&gt;
+
+&lt;p&gt;Keep in mind, Typora is still in Beta, so bugs are expected&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Page jumps sometimes when scrolling&lt;/li&gt;
+&lt;li&gt;Losing your place when flipping back and forth in code mode&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;These are both kind of annoying, but not deal breakers by any stretch.&lt;/p&gt;
+
+&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
+
+&lt;p&gt;Definitely check out &lt;a href=&#34;http://typora.io&#34;&gt;Typora&lt;/a&gt; if you write any amount of Markdown. It is free while in Beta so there is no reason not to.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
