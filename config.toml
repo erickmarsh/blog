@@ -1,4 +1,4 @@
-baseurl = "https://erickmarsh.github.io/blog"
+baseurl = "https://erickmarsh.github.io/blog/"
 languageCode = "en-us"
 title = "Eric Marsh Personal Blog"
 theme = "casper"
