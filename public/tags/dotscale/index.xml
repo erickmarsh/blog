@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dotscale on Eric Marsh Personal Blog</title>
-    <link>http://ericmarsh.com/tags/dotscale/</link>
+    <link>https://erickmarsh.github.io/blog/tags/dotscale/</link>
     <description>Recent content in Dotscale on Eric Marsh Personal Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>All rights reserved - 2016</copyright>
     <lastBuildDate>Sat, 17 Sep 2016 10:18:24 -0500</lastBuildDate>
-    <atom:link href="http://ericmarsh.com/tags/dotscale/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://erickmarsh.github.io/blog/tags/dotscale/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>welcome</title>
-      <link>http://ericmarsh.com/post/welcome/</link>
+      <link>https://erickmarsh.github.io/blog/post/welcome/</link>
       <pubDate>Sat, 17 Sep 2016 10:18:24 -0500</pubDate>
       
-      <guid>http://ericmarsh.com/post/welcome/</guid>
+      <guid>https://erickmarsh.github.io/blog/post/welcome/</guid>
       <description>&lt;p&gt;Hello this is a new blog post&lt;/p&gt;
 </description>
     </item>

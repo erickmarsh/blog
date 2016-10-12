@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Markdown on Eric Marsh Personal Blog</title>
-    <link>http://ericmarsh.com/tags/markdown/</link>
+    <link>https://erickmarsh.github.io/blog/tags/markdown/</link>
     <description>Recent content in Markdown on Eric Marsh Personal Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>All rights reserved - 2016</copyright>
     <lastBuildDate>Tue, 27 Sep 2016 15:53:30 -0500</lastBuildDate>
-    <atom:link href="http://ericmarsh.com/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://erickmarsh.github.io/blog/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Typora</title>
-      <link>http://ericmarsh.com/post/typora/</link>
+      <link>https://erickmarsh.github.io/blog/post/typora/</link>
       <pubDate>Tue, 27 Sep 2016 15:53:30 -0500</pubDate>
       
-      <guid>http://ericmarsh.com/post/typora/</guid>
+      <guid>https://erickmarsh.github.io/blog/post/typora/</guid>
       <description>
 
 &lt;p&gt;If you are like me, and write everything in Markdown, I found a great cross-platform Markdown editor &lt;a href=&#34;http://typora.io&#34;&gt;Typora&lt;/a&gt;&lt;/p&gt;
