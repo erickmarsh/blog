@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Eric Marsh Personal Blog</title>
-    <link>http://ericmarsh.com/post/</link>
+    <link>https://erickmarsh.github.io/blog/post/</link>
     <description>Recent content in Posts on Eric Marsh Personal Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>All rights reserved - 2016</copyright>
     <lastBuildDate>Wed, 12 Oct 2016 11:05:57 -0500</lastBuildDate>
-    <atom:link href="http://ericmarsh.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://erickmarsh.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Bash on Windows git and Hugo</title>
-      <link>http://ericmarsh.com/post/post-title/</link>
+      <link>https://erickmarsh.github.io/blog/post/post-title/</link>
       <pubDate>Wed, 12 Oct 2016 11:05:57 -0500</pubDate>
       
-      <guid>http://ericmarsh.com/post/post-title/</guid>
+      <guid>https://erickmarsh.github.io/blog/post/post-title/</guid>
       <description>
 
 &lt;h2 id=&#34;getting-setup&#34;&gt;Getting setup&lt;/h2&gt;
@@ -38,10 +38,10 @@
     
     <item>
       <title>Don&#39;t use Document.Write() for Script Tags</title>
-      <link>http://ericmarsh.com/post/dont-use-doc-write-for-script-tags/</link>
+      <link>https://erickmarsh.github.io/blog/post/dont-use-doc-write-for-script-tags/</link>
       <pubDate>Thu, 29 Sep 2016 13:29:20 -0500</pubDate>
       
-      <guid>http://ericmarsh.com/post/dont-use-doc-write-for-script-tags/</guid>
+      <guid>https://erickmarsh.github.io/blog/post/dont-use-doc-write-for-script-tags/</guid>
       <description>
 
 &lt;p&gt;I saw &lt;a href=&#34;http://blog.dareboost.com/en/2016/09/avoid-using-document-write-scripts-injection/&#34;&gt;this article&lt;/a&gt; linked on &lt;a href=&#34;https://news.ycombinator.com/item?id=12604544&#34;&gt;Hacker News&lt;/a&gt; about reasons not to use document.write() to insert script tags. The primary one being that Chrome is &lt;a href=&#34;https://developers.google.com/web/updates/2016/08/removing-document-write&#34;&gt;not going to support it.&lt;/a&gt;&lt;/p&gt;
@@ -81,10 +81,10 @@ _script.async = &#39;&#39;
     
     <item>
       <title>Typora</title>
-      <link>http://ericmarsh.com/post/typora/</link>
+      <link>https://erickmarsh.github.io/blog/post/typora/</link>
       <pubDate>Tue, 27 Sep 2016 15:53:30 -0500</pubDate>
       
-      <guid>http://ericmarsh.com/post/typora/</guid>
+      <guid>https://erickmarsh.github.io/blog/post/typora/</guid>
       <description>
 
 &lt;p&gt;If you are like me, and write everything in Markdown, I found a great cross-platform Markdown editor &lt;a href=&#34;http://typora.io&#34;&gt;Typora&lt;/a&gt;&lt;/p&gt;
@@ -126,10 +126,10 @@ _script.async = &#39;&#39;
     
     <item>
       <title>welcome</title>
-      <link>http://ericmarsh.com/post/welcome/</link>
+      <link>https://erickmarsh.github.io/blog/post/welcome/</link>
       <pubDate>Sat, 17 Sep 2016 10:18:24 -0500</pubDate>
       
-      <guid>http://ericmarsh.com/post/welcome/</guid>
+      <guid>https://erickmarsh.github.io/blog/post/welcome/</guid>
       <description>&lt;p&gt;Hello this is a new blog post&lt;/p&gt;
 </description>
     </item>

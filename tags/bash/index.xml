@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bash on Eric Marsh Personal Blog</title>
-    <link>http://ericmarsh.com/tags/bash/</link>
+    <link>https://erickmarsh.github.io/blog/tags/bash/</link>
     <description>Recent content in Bash on Eric Marsh Personal Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>All rights reserved - 2016</copyright>
     <lastBuildDate>Wed, 12 Oct 2016 11:05:57 -0500</lastBuildDate>
-    <atom:link href="http://ericmarsh.com/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://erickmarsh.github.io/blog/tags/bash/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Bash on Windows git and Hugo</title>
-      <link>http://ericmarsh.com/post/post-title/</link>
+      <link>https://erickmarsh.github.io/blog/post/post-title/</link>
       <pubDate>Wed, 12 Oct 2016 11:05:57 -0500</pubDate>
       
-      <guid>http://ericmarsh.com/post/post-title/</guid>
+      <guid>https://erickmarsh.github.io/blog/post/post-title/</guid>
       <description>
 
 &lt;h2 id=&#34;getting-setup&#34;&gt;Getting setup&lt;/h2&gt;
