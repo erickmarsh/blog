@@ -2,7 +2,7 @@
 author = "Eric Marsh"
 comments = true
 date = "2016-10-12T11:05:57-05:00"
-draft = false
+draft = true
 image = ""
 menu = ""
 share = true
